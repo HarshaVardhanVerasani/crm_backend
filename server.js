@@ -23,6 +23,10 @@ app.use(bodyParser.urlencoded({ extended: true }));
  */
 app.use(cors());
 
+// app.get("/",(req,res) => {
+//   res.send("<h1>working backend is live</h1>")
+// })
+
 /**
  * DB Connection initialization
  */
